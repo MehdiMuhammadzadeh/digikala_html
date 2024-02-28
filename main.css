@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "Vazir-FD";
+    src: url('./fonts/Vazir-FD.woff');
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Vazir-FD";
+  }
+  
+  body {
+    direction: rtl;
+    height: 100%;
+    /* max-width: 2500px; */
+  }
+  
+  a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+/*   
+  :root {
+
+  }
+   */
