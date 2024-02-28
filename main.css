@@ -1,26 +1,138 @@
 @font-face {
-    font-family: "Vazir-FD";
-    src: url('./fonts/Vazir-FD.woff');
-  }
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Vazir-FD";
-  }
-  
-  body {
-    direction: rtl;
-    height: 100%;
-    /* max-width: 2500px; */
-  }
-  
-  a {
-    text-decoration: none;
-    cursor: pointer;
-  }
-/*   
-  :root {
+  font-family: "Vazir-FD";
+  src: url("./fonts/Vazir-FD.woff");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Vazir-FD";
+}
 
+body {
+  direction: rtl;
+  height: 100%;
+  /* max-width: 2500px; */
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+:root {
+  --light-gray: #e6e6e6;
+  --grey:#404040;
+  --white: #fff;
+  --black: #000;
+  --red: #ff0000;
+  --scarlet-red:#b2001a;
+  --green: #00ff00;
+  --blue: #0000ff;
+  --red-pink: #ee384e;
+  --blue-diamond:#3cd5ff;
+  --bondi-blue:#008EB2;
+
+}
+
+/* Login Styles start here*/
+
+.login-container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+  background-color: var(--whit);
+  width: 400px;
+  height: auto;
+  border: 1px solid var(--light-gray);
+  border-radius: 5px;
+}
+
+.digikala-icon {
+  text-align: center;
+  margin-top: 20px;
+  width: 150px;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.digikala-icon > img {
+  width: 100%;
+}
+
+.form-container {
+    margin: 0px 35px;
+}
+.form-container p {
+    color: var(--grey);
+    font-size: 0.9rem;
+   
+}
+.form-container > h3 {
+    margin-bottom: 20px;
+}
+.form-container > h3 + p {
+    margin-bottom: 8px;
+}
+.input-container {
+    width: 100%;
+    margin-top: 20px;
+}
+.form-container input {
+   width: 100%;
+   height: 50px;
+   border: 1px solid #3cd5ff;
+   border-radius: 8px;
+   outline: none;
+   padding-right: 15px;
+   -webkit-transition: 0.5s;
+   transition: 0.5s;
+}
+.form-container input:focus {
+    border-color: var(--scarlet-red);
+}
+.input-error {
+    color: var(--scarlet-red);
+    margin-top: 10px;
+    opacity: 0;
+}
+
+
+.form-container input:focus .input-error {
+    opacity: 1;
+    color: blue;
+}
+
+.login-button {
+    background-color: var(--red-pink);
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    color: var(--white);
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    margin: 2rem 0 1rem 0;
+}
+.rules-terms {
+    font-size: 0.7rem !important;
+    margin-bottom: 2.2rem;
+}
+.form-container a{
+    color: var( --bondi-blue);
+    
+}
+/* Login Styles end here */
+
+
+@media (max-width: 576px) {
+    .login {
+        width: 380px;
+        border: none;
+    }
   }
-   */
