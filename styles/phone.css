@@ -4,4 +4,17 @@
         width: 380px;
         border: none;
     }
+    .dgkala-icon{
+        display: none;
+    }
+    .white-space {
+        display: none;
+    }
+    .cart-registration {
+        display: none;
+    }
+    nav {
+        width: 95%;
+        
+      }
   }
