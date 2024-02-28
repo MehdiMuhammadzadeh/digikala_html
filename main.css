@@ -22,9 +22,11 @@ a {
 
 :root {
   --light-gray: #e6e6e6;
+  --easy-gray:#a7a7a7;
   --grey:#404040;
   --white: #fff;
   --black: #000;
+  --ligh-black:#232323;
   --red: #ff0000;
   --scarlet-red:#b2001a;
   --green: #00ff00;
@@ -45,7 +47,7 @@ a {
 }
 
 .login {
-  background-color: var(--whit);
+  background-color: var(--white);
   width: 400px;
   height: auto;
   border: 1px solid var(--light-gray);
@@ -129,3 +131,176 @@ a {
 }
 /* Login Styles end here */
 
+/* Landing Page Styles start here */
+header {
+  position: sticky;
+  top: 0;
+}
+div.sticky-banner {
+  height: 60px;
+  width: 100%;
+  background-color: var(--red-pink);
+}
+nav {
+  
+  margin: auto;
+  width: 85%;
+}
+.nav-container {
+  display: flex;
+}
+.dgkala-icon {
+  /* flex: 1; */
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 170px;
+  max-width: 170px;
+}
+.search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex: 3; */
+  height: 50px;
+  position: relative;
+  width: 612px;
+  max-width: 612px;
+}
+.search-input {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid var(--light-gray);
+  outline: none;
+  padding-right: 2.8rem;
+  background-color: var(--light-gray);
+}
+.search-input::-webkit-input-placeholder {
+  color: var(--easy-gray);
+}
+.fa-magnifying-glass {
+  position: absolute;
+  right: 10px;
+  top: 32%;
+  font-size: 1.2rem;
+  color: var(--easy-gray);
+
+}
+
+.white-space {
+  flex: 3;
+  /* width: 612px; */
+  /* max-width: 612px; */
+  height: 50px;
+}
+
+.cart-registration {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* flex: 1; */
+  width: 204px;
+  max-width: 204px;
+  height: 50px;
+  /* background-color: #465483; */
+}
+
+.regiter-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--light-gray);
+  padding: 7px 20px;
+  border-radius: 5px;
+  /* background-color: red; */
+}
+.fa-arrow-right-to-bracket {
+  transform: rotateY(180deg);
+}
+.divider{
+  width: 1px;
+  background-color: var(--light-gray);
+  height: 30px;
+}
+.fa-cart-shopping {
+  transform: rotateY(180deg);
+}
+
+.nav_product-categories {
+  background-color: rgb(255, 213, 213);
+  width: 100%;
+  height: 50px;
+  display: flex;
+}
+
+.product-categories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 204px;
+  max-width: 204px;
+  height: 50px;
+}
+#categoring-title {
+  color: var( --ligh-black);
+  font-size: 0.9rem;
+}
+.fa-bars {
+  color: var(--ligh-black);
+}
+
+.products-navbar{
+  width: 1000px;
+  max-width: 1000px;
+  background-color: rgb(0, 145, 255);
+  height: 50px;
+}
+
+.empty-space {
+  width: 500px;
+  max-width: 500px;
+  background-color: rgb(255, 251, 0);
+  height: 50px;
+}
+
+
+.choose-city{
+  width: 204px;
+  max-width: 204px;
+  background-color: rgb(0, 94, 255);
+  height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+  width: 75%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+/* Landing Page Styles end here */
