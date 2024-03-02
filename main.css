@@ -473,6 +473,10 @@ nav {
 
 #services {
   padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
 }
 .services-list {
   display: flex;
@@ -482,7 +486,7 @@ nav {
   font-size: 0.8rem;
   width: 105px;
   text-align: center;
-  margin: 0 3rem;
+  margin: 0 2rem;
 }
 .services-list_item span {
   display: inline-block;
@@ -514,7 +518,7 @@ nav {
   display: flex;
   /* justify-content: center;
   align-items: center; */
-  padding: 1.2rem;
+  padding: 1rem 0.5rem;
 }
 
 .amazing-suggestions-title {
@@ -544,6 +548,7 @@ nav {
   left: 0;
   width: 40px;
   height: 40px;
+  background-color: var(--white);
   border-radius: 50%;
   display: flex;
   justify-content: center;

@@ -1,4 +1,4 @@
-@media (max-width: 576px) {
+/* @media (max-width: 580px) { */
   .login {
     width: 380px;
     border: none;
@@ -12,10 +12,31 @@
   .cart-registration {
     display: none;
   }
+  .container {
+    width: 100%;
+  }
   nav {
     width: 95%;
   }
   .nav_product-categories {
     display: none;
   }
-}
+
+  #stories {
+    /* i can use scrolbar but for now it is enough */
+    overflow: hidden;
+    padding: 5px 0;
+  }
+  .story-list_item {
+    width: 85px;
+    margin: 0 10px;
+    font-size: 0.7rem;
+  }
+  #services {
+    flex-direction: column;
+  }
+
+  .services-list_item {
+    margin: 0.6rem 1rem;
+  }
+/* } */
