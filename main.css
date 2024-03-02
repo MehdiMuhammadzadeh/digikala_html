@@ -132,6 +132,7 @@ a {
 header {
   position: sticky;
   top: 0;
+  z-index: 100;
 }
 div.sticky-banner {
   height: 60px;
@@ -415,4 +416,151 @@ nav {
 .story-list_item div {
   margin-top: 10px;
 }
+
+.slider {
+  margin: 30px 0 20px 0;
+
+  /* position: absolute; */
+  height: 400px;
+  /* width: 1920px; */
+  width: 100%;
+  background-color: var(--red-pink);
+  animation: change-main-slider-backgorundColor 10s infinite;
+}
+
+/* #1E1040
+#4E184D */
+@keyframes change-main-slider-backgorundColor {
+  0% {
+    background: rgb(218, 98, 98);
+    background: radial-gradient(
+      circle,
+      rgba(218, 98, 98, 1) 0%,
+      rgba(238, 56, 78, 1) 100%
+    );
+  }
+  20% {
+    background: #bdcee2;
+  }
+  40% {
+    background: rgb(78, 24, 77);
+    background: linear-gradient(
+      90deg,
+      rgba(78, 24, 77, 1) 24%,
+      rgba(30, 16, 64, 1) 100%
+    );
+  }
+  60% {
+    background: #b4dea9;
+  }
+  80% {
+    background: rgb(75, 97, 189);
+    background: radial-gradient(
+      circle,
+      rgba(75, 97, 189, 1) 0%,
+      rgba(3, 12, 57, 1) 100%
+    );
+  }
+  100% {
+    background: rgb(218, 98, 98);
+    background: radial-gradient(
+      circle,
+      rgba(218, 98, 98, 1) 0%,
+      rgba(238, 56, 78, 1) 100%
+    );
+  }
+}
+
+#services {
+  padding: 10px;
+}
+.services-list {
+  display: flex;
+  list-style: none;
+}
+.services-list_item {
+  font-size: 0.8rem;
+  width: 105px;
+  text-align: center;
+  margin: 0 3rem;
+}
+.services-list_item span {
+  display: inline-block;
+}
+.more {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.more-icon {
+  width: 52px;
+  height: 52px;
+  background-color: var(--light-gray);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fa-ellipsis {
+  color: var(--easy-gray);
+}
+
+#amazing-suggestions {
+  background-color: var(--red-pink);
+  height: 300px;
+  width: 100%;
+  border-radius: 16px;
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  padding: 1.2rem;
+}
+
+.amazing-suggestions-title {
+  flex: 1;
+  background-color: var(--red-pink);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.amazing-suggestions_products_slider {
+  position: relative;
+  flex: 8;
+  display: grid;
+  grid-template-columns: 182px 182px 182px 182px 182px 182px 182px 182px 182px 182px 182px 182px;
+  gap: 5px;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+  /* background-color: var(--white); */
+  overflow: hidden;
+}
+.amazing-sug_change-slider {
+  position: absolute;
+  top: 110px;
+  margin-left: 5px;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 3px rgba(87, 87, 87, 0.5);
+  /* z-index: -1; */
+}
+
+.amazing-suggestions_products_slider-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 261.625px; 
+  background-color: var(--white);
+
+}
+
 /* Landing Page Styles end here */
