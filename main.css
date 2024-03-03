@@ -19,6 +19,9 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
+ul {
+  list-style: none;
+}
 
 :root {
   --light-gray: #e6e6e6;
@@ -30,11 +33,13 @@ a {
   --red: #ff0000;
   --scarlet-red: #b2001a;
   --green: #00ff00;
+  --lawn-green:#39AE00;
   --blue: #0000ff;
   --red-pink: #ee384e;
   --blue-diamond: #3cd5ff;
   --bondi-blue: #008eb2;
   --royal-fuchsia-story-border: #c04198;
+  --harp:#ECEFEB;
 }
 
 /* Login Styles start here*/
@@ -567,5 +572,112 @@ nav {
   background-color: var(--white);
 
 }
+
+
+#supermarket-amazing {
+  background-color: var(--harp);
+  margin-top: 1rem;
+  height: 110px;
+  display: flex;
+  border-radius: 16px;
+}
+.supermarket-amazing__item {
+  width: 70%;
+}
+
+.supermarket-amazing__item {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.supermaket-amazing-title h1 {
+  color: var(--lawn-green);
+}
+.supermaket-amazing-button button {
+  border: none;
+  color: var(--white);
+  background-color: var(--lawn-green);
+  border-radius: 50px;
+  padding: 5px 25px;
+  font-size: 1rem;
+  
+}
+
+.supermarket-amazing-products {
+  margin-right:2rem ;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.supermarket-amazing-products_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.supermarket-amazing-products_item {
+  position: relative;
+}
+.supermarket-amazing-products_item-product {
+  width: 70px;
+  height: 70px;
+  background-color: var(--white);
+  margin: 0px 5px;
+  border-radius: 50%;
+}
+.supermarket-amazing-products_item-product img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.supermarket-amazing-products_item-badge {
+  position: absolute;
+  bottom: -8px;
+  margin-left: 10px;
+  font-size: 0.7rem;
+  height: 22px;
+  width: 35px;
+  text-align: center;
+  background-color: #ee384e;
+  border-radius: 50px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.show-hundred-more {
+  background-color: var(--white);
+  color: var(--lawn-green);
+  margin-right: 3rem;
+  border-radius: 50px;
+  width: 150px;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.show-hundred-more p {
+  font-size: 0.8rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Landing Page Styles end here */
