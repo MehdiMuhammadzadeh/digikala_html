@@ -698,16 +698,15 @@ nav {
 } */
 
 #purchase-over-categorized {
-  
 }
 #purchase-over-categorized h3 {
-  margin:3rem 0;
+  margin: 3rem 0;
   text-align: center;
   color: var(--ligh-black);
 }
 #purchase-over-categorized img {
-  width:90px ;
-  height:90px ;
+  width: 90px;
+  height: 90px;
 }
 #purchase-over-categorized p {
   font-size: 12px;
@@ -718,8 +717,23 @@ nav {
 .purchase-over-categorized_upper,
 .purchase-over-categorized_down {
   display: flex;
-  justify-content: space-evenly; 
+  justify-content: space-evenly;
   align-items: center;
 }
-
+#second-cards {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.second-cards__item {
+  width: 690px;
+  height: 264px;
+  border-radius:1rem;
+}
+.second-cards__item img {
+  width: 690px;
+  height: 264px;
+  border-radius:1rem;
+}
 /* Landing Page Styles end here */

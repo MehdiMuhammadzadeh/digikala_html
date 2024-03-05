@@ -126,9 +126,59 @@
   .purchase-over-categorized_down div{
     margin: 2rem;
   }
-  /* .purchase-over-categorized_upper,
-  .purchase-over-categorized_down div{
-    background-color: red;
-    margin: 0 1rem;
-   } */
+  #second-cards {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .second-cards__item {
+    width:513px;
+    height: 205px;
+    border-radius:1rem;
+    margin:0.5rem 0px;
+  }
+  .second-cards__item img {
+    width:513px;
+    height: 205px;
+    border-radius:1rem;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* end of media query styles */
 /* } */
