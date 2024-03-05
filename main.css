@@ -698,8 +698,28 @@ nav {
 } */
 
 #purchase-over-categorized {
-  margin-top: 1rem;
   
+}
+#purchase-over-categorized h3 {
+  margin:3rem 0;
+  text-align: center;
+  color: var(--ligh-black);
+}
+#purchase-over-categorized img {
+  width:90px ;
+  height:90px ;
+}
+#purchase-over-categorized p {
+  font-size: 12px;
+  margin-top: 0.8rem;
+  font-weight: 500;
+}
+
+.purchase-over-categorized_upper,
+.purchase-over-categorized_down {
+  display: flex;
+  justify-content: space-evenly; 
+  align-items: center;
 }
 
 /* Landing Page Styles end here */
