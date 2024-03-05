@@ -96,4 +96,20 @@
   .show-hundred-more p {
     display: none;
   }
+
+  #product-cards {
+    
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+  }
+  .card{
+    width: 252px;
+    height: 189px;
+  }
+
+  .card img {
+    width: 252px;
+    height: 189px;
+  }
 /* } */

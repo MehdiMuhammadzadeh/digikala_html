@@ -33,13 +33,17 @@ ul {
   --red: #ff0000;
   --scarlet-red: #b2001a;
   --green: #00ff00;
-  --lawn-green:#39AE00;
+  --lawn-green: #39ae00;
   --blue: #0000ff;
   --red-pink: #ee384e;
   --blue-diamond: #3cd5ff;
   --bondi-blue: #008eb2;
   --royal-fuchsia-story-border: #c04198;
-  --harp:#ECEFEB;
+  --harp: #ecefeb;
+  --peach: #ffae75;
+  --cotton-candy: #f4b7e0;
+  --white-smole: #f4f6f8;
+  --cerulean: #10a4db;
 }
 
 /* Login Styles start here*/
@@ -568,11 +572,9 @@ nav {
   justify-content: space-around;
   align-items: center;
 
-  height: 261.625px; 
+  height: 261.625px;
   background-color: var(--white);
-
 }
-
 
 #supermarket-amazing {
   background-color: var(--harp);
@@ -601,11 +603,10 @@ nav {
   border-radius: 50px;
   padding: 5px 25px;
   font-size: 1rem;
-  
 }
 
 .supermarket-amazing-products {
-  margin-right:2rem ;
+  margin-right: 2rem;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -662,22 +663,43 @@ nav {
   font-size: 0.8rem;
 }
 
+#product-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
 
+.card {
+  width: 322px;
+  height: 241px;
+  border-radius: 16px;
+}
+.card img {
+  width: 322px;
+  height: 241px;
+  border-radius: 16px;
+}
+/* .card:nth-child(1) {
+  background-color: var(--white-smole);
+}
+.card:nth-child(1) {
 
+}
+.card:nth-child(2) {
+  background-color: var(--cotton-candy);
+}
+.card:nth-child(3) {
+  background-color: var(--cerulean);
+}
 
+.card:nth-child(4) {
+  background-color: var(--peach);
+} */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+#purchase-over-categorized {
+  margin-top: 1rem;
+  
+}
 
 /* Landing Page Styles end here */
