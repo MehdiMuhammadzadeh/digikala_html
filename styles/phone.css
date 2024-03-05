@@ -112,4 +112,23 @@
     width: 252px;
     height: 189px;
   }
+
+  #purchase-over-categorized {
+    flex-wrap: wrap;
+  }
+  .purchase-over-categorized_upper,
+  .purchase-over-categorized_down {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+  }
+  .purchase-over-categorized_upper div ,
+  .purchase-over-categorized_down div{
+    margin: 2rem;
+  }
+  /* .purchase-over-categorized_upper,
+  .purchase-over-categorized_down div{
+    background-color: red;
+    margin: 0 1rem;
+   } */
 /* } */
