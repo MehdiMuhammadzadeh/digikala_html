@@ -145,11 +145,21 @@
     border-radius:1rem;
   }
 
+#digikala-suggestion {
+padding:15px ;
+  overflow: hidden;
+  width: 100%;
+}
 
+.digikala-suggestion-table_link-item {
+  width: 160px;
+  height: 150px;
+}
 
-
-
-
+.speaker {
+  border-top-left-radius: 1rem;
+  margin-left: 4rem;
+}
 
 
 
