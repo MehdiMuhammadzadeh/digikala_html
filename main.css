@@ -697,8 +697,6 @@ nav {
   background-color: var(--peach);
 } */
 
-#purchase-over-categorized {
-}
 #purchase-over-categorized h3 {
   margin: 3rem 0;
   text-align: center;
@@ -729,11 +727,57 @@ nav {
 .second-cards__item {
   width: 690px;
   height: 264px;
-  border-radius:1rem;
+  border-radius: 1rem;
 }
 .second-cards__item img {
   width: 690px;
   height: 264px;
-  border-radius:1rem;
+  border-radius: 1rem;
+}
+
+#digikala-suggestion {
+  /* background: orange; */
+  border-radius: 1rem;
+}
+#digikala-suggestion h2 {
+  text-align: center;
+  margin: 2rem 0 1.5rem 0;
+}
+.digikala-suggestion-table {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+}
+
+.digikala-suggestion-table_link {
+  color: var(--ligh-black);
+}
+.digikala-suggestion-table_link-item {
+  width: 200px;
+  height: 150px;
+  border: 1px solid rgb(240, 240, 240);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.digikala-suggestion-table_link-item-pic {
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(213, 213, 213);
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+}
+.digikala-suggestion-table_link-item-pic img {
+  border-radius: 50%;
+  width: 84px;
+  height: 84px;
 }
 /* Landing Page Styles end here */
+
+/*
+class="flex overflow-x-auto overflow-y-hidden hide-scrollbar mt-2 border-complete-200 rounded-large"
+*/
