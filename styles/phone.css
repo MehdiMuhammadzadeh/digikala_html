@@ -183,8 +183,25 @@ padding:15px ;
 }
 
 
-
-
+#digital-table-one {
+  margin-top: 1rem;
+  border: 1px solid var(--light-gray);
+  display: grid;
+  grid-template-columns: auto;
+}
+.digital-table-one__item-photos-container {
+  width: 244px;
+  height: 244px;
+  
+}
+.digital-table-one__item-photos-container img {
+  width: 244px;
+  height: 244px;
+}
+.digital-table-one__item {
+  /* background-color: orange; */
+  border-bottom: 1px solid var(--light-gray);
+}
 
 
 
