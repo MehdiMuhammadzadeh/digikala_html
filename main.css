@@ -44,6 +44,7 @@ ul {
   --cotton-candy: #f4b7e0;
   --white-smole: #f4f6f8;
   --cerulean: #10a4db;
+  --selective-yellow:#F9BC00;
 }
 
 /* Login Styles start here*/
@@ -231,6 +232,7 @@ div.sticky-banner {
 header {
   border-bottom: 2px solid var(--light-gray);
   margin-bottom: 0.5rem;
+  background-color: var(--white);
 }
 nav {
   background-color: var(--white);
@@ -775,6 +777,67 @@ nav {
   border-radius: 50%;
   width: 84px;
   height: 84px;
+}
+
+#popular-brands {
+  margin-top: 1rem;
+  /* background-color: rgb(255, 213, 134); */
+  border-radius: 1rem;
+  border: 1px solid var(--light-gray);
+  position: relative;
+}
+.popular-brands_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.popular-brands_title h1 {
+  color: var(--ligh-black);
+  margin: 1.5rem 0.7rem 1rem 0; 
+}
+.fa-star {
+  color: var(--selective-yellow);
+  font-size: 1.2rem;
+}
+.popular-brands_table {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  overflow: hidden;
+  
+}
+.popular-brands_image {
+  border-left: 1px solid var(--light-gray);
+  padding: 0.3rem 0.7rem;
+}
+
+.popular-brands-slider-btn {
+  position: absolute;
+  top: 110px;
+  margin-left: 5px;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  background-color: var(--white);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 2px rgba(87, 87, 87, 0.5);
+  /* z-index: -1; */
+}
+
+#third-galary {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.third-galary_picbox {
+  border-radius: 1rem;
+}
+.third-galary_picbox img{
+  border-radius: 1rem;
 }
 /* Landing Page Styles end here */
 

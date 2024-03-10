@@ -98,7 +98,7 @@
   }
 
   #product-cards {
-    
+
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 10px;
@@ -161,8 +161,26 @@ padding:15px ;
   margin-left: 4rem;
 }
 
+.popular-brands_table{
+  padding: 0.6rem;
+}
+.popular-brands_image img {
+  height: 85px;
+  width: 100px;
+}
+.popular-brands-slider-btn{
+   top: 80px;
+}
 
 
+#third-galary{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.third-galary_picbox img {
+  width: 522px;
+}
 
 
 
