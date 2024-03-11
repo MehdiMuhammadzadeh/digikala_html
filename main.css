@@ -45,6 +45,7 @@ ul {
   --white-smole: #f4f6f8;
   --cerulean: #10a4db;
   --selective-yellow: #f9bc00;
+  --warm-purple: #941b80;
 }
 
 /* Login Styles start here*/
@@ -867,12 +868,11 @@ nav {
   display: inline-grid;
   grid-template-columns: auto auto;
   padding: 10px;
-  margin: auto; 
+  margin: auto;
 }
 .digital-table-one__item-photos-container {
   width: 129px;
   height: 129px;
-  
 }
 .digital-table-one__item-photos-container img {
   width: 129px;
@@ -889,6 +889,103 @@ nav {
 .digital-table-one__item-more p {
   color: var(--blue-diamond);
   margin-left: 0.3rem;
+}
+
+#digi-plus {
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  background-color: var(--warm-purple);
+  height: 387px;
+  display: flex;
+}
+.digi-plus_title {
+  background-color: var(--warm-purple);
+  flex: 2;
+  padding: 1.5rem;
+}
+.digi-plus_title h1 {
+  font-size: 2.2rem;
+}
+.digi-plus_title h1,
+.digi-plus_title p {
+  color: var(--white);
+}
+.digi-plus_title button {
+  color: var(--white);
+  background-color: var(--warm-purple);
+  outline: none;
+  border: 1px solid var(--white);
+  border-radius: 0.4rem;
+  padding: 0.5rem 1.5rem;
+  display: flex;
+  align-items: center;
+  margin-top: 0.8rem;
+  cursor: pointer;
+}
+.fa-arrow-left {
+  font-size: 1.3rem;
+  display: inline-block;
+  margin-right: 0.7rem;
+}
+.digi-plus_products {
+  background-color: var(--white);
+  flex: 4;
+  border-radius: 1rem;
+  padding: 1.2rem 1rem;
+}
+.digi-plus_products__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.digi-plus_sendfast {
+  display: flex;
+  align-items: center;
+}
+.fa-truck-fast {
+  color: var(--warm-purple);
+  margin-left: 0.5rem;
+}
+
+.digi-plus_products__header h6 {
+  font-size: 1.1rem;
+}
+
+.digi-plus_products_visit-all {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: var(--warm-purple);
+}
+.digi-plus_products_visit-all p {
+  font-size: 0.8rem;
+}
+.chevron-left-visit {
+  font-size: 0.7rem;
+  margin-right: 0.4rem;
+}
+.digi-plus_products__images {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  gap: 25px;
+}
+
+.digi-plus_products__images-item {
+}
+
+.digi-plus_products__images-item-link {
+}
+
+.digi-plus_products__images-item-photo {
+    width: 116px;
+  height: 116px;
+}
+
+.digi-plus_products-pic {
+  width: 116px;
+  height: 116px;
 }
 
 /* Landing Page Styles end here */
