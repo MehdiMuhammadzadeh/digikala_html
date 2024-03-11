@@ -222,5 +222,36 @@ nav {
   
 }
 
+
+#digi-club {
+  flex-direction: column;
+  height: 202px;
+  padding: 1rem;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.digi-club__cards-item {
+  flex-direction: column;
+  height: 125px;
+  align-items: center;
+}
+
+.digi-club__cards {
+  flex: 4;
+  grid-template-columns: auto auto auto;
+  margin: auto;
+}
+
+.digi-club-card_name{
+  margin: auto;
+  padding: 0;
+  flex-direction: column;
+}
+.digi-club_title {
+  flex: 1;
+  text-align: right;
+}
+
 /* end of media query styles */
 /* } */
