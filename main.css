@@ -1043,7 +1043,7 @@ nav {
   display: flex;
   align-items: center;
   padding-right: 2.5rem;
-  color: var(--cerulean);
+  color: var(--blue-diamond);
 
 }
 .digi-club-card_name span{
@@ -1052,7 +1052,82 @@ nav {
 }
 
 
+#most-selling-products {
+  position: relative;
+  border-radius: 1rem;
+  margin-top: 1rem;
+ border: 1px solid var(--light-gray);
 
+}
+
+.most-selling-products_title {
+  display: flex;
+  justify-content: center;
+}
+
+.most-selling-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.most-selling-title h1 {
+  margin-right: 1rem;
+  margin: 1.5rem 1rem 1rem 0;
+}
+.fa-fire-flame-curved {
+  font-size: 1.5rem;
+  color: var(--selective-yellow);
+}
+.most-selling-visit-more p {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-weight: 600;
+  color: var(--blue-diamond);
+}
+
+.most-selling-products_list {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 25px;
+}
+
+.most-selling-products_item {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+.most-selling-item_description {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.most-selling-item_description h1 {
+  margin: 0 0.7rem;
+  color: var(--blue-diamond);
+}
+.most-selling-item_description p {
+/* word-break: ; */
+font-size: 12px;
+overflow: hidden;
+}
+.most-selling-item_pic {
+  width: 86px;
+  height: 86px;
+}
+.most-selling-name {
+  border-bottom: 1px solid var(--light-gray);
+}
+.most-selling-name p {
+  margin-bottom: 2rem;
+}
+
+.most-selling-item_pic img{
+  width: 86px;
+  height: 86px;
+}
 
 /* Landing Page Styles end here */
 
