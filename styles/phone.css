@@ -303,5 +303,28 @@ nav {
   display: none;
 }
 
+.readable-cards {
+  display: grid;
+  grid-template-columns: 530px;
+  gap: 15px;
+  margin-top: 1rem;
+}
+
+.readable-cards_item--image {
+  width: 530px;
+  height: 330px;
+  border-radius: 0.7rem;
+}
+.readable-cards_item--image img {
+  width: 530px;
+  height: 330px;
+  border-top-left-radius: 0.7rem;
+  border-top-right-radius: 0.7rem;
+}
+
+.readable-title_more {
+  margin-left: 0;
+}
+
 /* end of media query styles */
 /* } */
