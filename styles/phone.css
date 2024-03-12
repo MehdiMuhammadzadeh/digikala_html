@@ -299,7 +299,9 @@ nav {
   grid-template-columns: auto auto;
   /* gap: 15px; */
 }
-
+.most-selling-slider-btn {
+  display: none;
+}
 
 /* end of media query styles */
 /* } */
