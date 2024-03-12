@@ -1128,7 +1128,33 @@ overflow: hidden;
   width: 86px;
   height: 86px;
 }
+.most-selling-slider-btn {
+  position: absolute;
+  top: 205px;
+  margin-left: 5px;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  background-color: var(--white);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 2px rgba(87, 87, 87, 0.5);
+}
 
+#advertisement-banner {
+  margin-top: 1rem;
+  border-radius: 1rem;
+}
+.advetise-banner_container {
+  width: 1397px;
+}
+.advetise-banner_container img{
+  width: 1397px;
+  border-radius: 1rem;
+  
+}
 /* Landing Page Styles end here */
 
 /*
