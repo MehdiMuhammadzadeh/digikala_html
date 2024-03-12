@@ -1031,7 +1031,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   height: 60px;
-  margin:auto 0;
+  margin: auto 0;
 }
 
 .digi-club-card__photo {
@@ -1044,20 +1044,17 @@ nav {
   align-items: center;
   padding-right: 2.5rem;
   color: var(--blue-diamond);
-
 }
-.digi-club-card_name span{
+.digi-club-card_name span {
   margin-right: 0.8rem;
   color: var(--black);
 }
-
 
 #most-selling-products {
   position: relative;
   border-radius: 1rem;
   margin-top: 1rem;
- border: 1px solid var(--light-gray);
-
+  border: 1px solid var(--light-gray);
 }
 
 .most-selling-products_title {
@@ -1109,9 +1106,9 @@ nav {
   color: var(--blue-diamond);
 }
 .most-selling-item_description p {
-/* word-break: ; */
-font-size: 12px;
-overflow: hidden;
+  /* word-break: ; */
+  font-size: 12px;
+  overflow: hidden;
 }
 .most-selling-item_pic {
   width: 86px;
@@ -1124,7 +1121,7 @@ overflow: hidden;
   margin-bottom: 2rem;
 }
 
-.most-selling-item_pic img{
+.most-selling-item_pic img {
   width: 86px;
   height: 86px;
 }
@@ -1150,11 +1147,85 @@ overflow: hidden;
 .advetise-banner_container {
   width: 1397px;
 }
-.advetise-banner_container img{
+.advetise-banner_container img {
   width: 1397px;
   border-radius: 1rem;
-  
 }
+
+#selected-products {
+  margin-top: 1rem;
+  border-radius: 1rem;
+  border: 1px solid var(--light-gray);
+}
+
+.selected-products_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.3rem 0;
+}
+.selected-products_title h1 {
+  margin-right: 1rem;
+  font-weight: 500;
+}
+
+.selected-products_discount {
+  color: var(--red-pink);
+  font-size: 1.2rem;
+}
+.selected-products_list {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  /* gap: 15px; */
+}
+.selected-products_list-item {
+  display: flex;
+  flex-direction: column;
+  padding: 1.2rem;
+  border-left: 1px solid var(--light-gray);
+  border-bottom:  1px solid var(--light-gray);
+}
+
+.selected-products_photo {
+  width: 130px;
+  height: 130px;
+  display: flex;
+  align-self: center;
+}
+.selected-products_photo img {
+  width: 130px;
+  height: 130px;
+}
+
+.selected-products_price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.selected-discount {
+  background-color: var(--red-pink);
+  color: var(--white);
+  border-radius: 2rem;
+  padding: 1px 6px;
+}
+.selected-discount p {
+  font-size: 12px;
+}
+.selected-products_discount {
+  display: flex;
+  justify-content: flex-end;
+}
+.selected-products_discount p {
+  color: var(--easy-gray);
+  text-decoration: line-through;
+  font-size: 14px;
+  margin-top: 0.8rem;
+}
+
 /* Landing Page Styles end here */
 
 /*
