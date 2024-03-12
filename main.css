@@ -1226,6 +1226,60 @@ nav {
   margin-top: 0.8rem;
 }
 
+
+#readable {
+  margin-top: 2rem;
+}
+.readable-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 1rem;
+}
+.readable-title h1 {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.readable-title_more {
+  display: flex;
+  align-items: center;
+  color: var(--bondi-blue);
+  margin-left: 2.5rem;
+}
+.readable-title_more p {
+  font-size: 14px;
+  margin-left: 0.5rem;
+}
+
+.readable-cards {
+  display: grid;
+  grid-template-columns: 323px 323px 323px 323px;
+  gap: 25px;
+  margin-top: 1rem;
+}
+.readable-cards_item {
+  border: 1px solid var(--light-gray);
+  border-radius: 0.7rem;
+}
+
+.readable-cards_item--image {
+  width: 323px;
+  height: 201px;
+  border-radius: 0.7rem;
+}
+.readable-cards_item--image img {
+  width: 323px;
+  height: 201px;
+  border-top-left-radius: 0.7rem;
+  border-top-right-radius: 0.7rem;
+}
+
+.readable-cards_item--description {
+  font-size: 0.8rem;
+  padding: 1rem 1.2rem;
+}
+
 /* Landing Page Styles end here */
 
 /*
