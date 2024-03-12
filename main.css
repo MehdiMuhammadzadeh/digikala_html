@@ -1229,6 +1229,7 @@ nav {
 
 #readable {
   margin-top: 2rem;
+  margin-bottom: 3.5rem;
 }
 .readable-title {
   display: flex;
@@ -1279,6 +1280,56 @@ nav {
   font-size: 0.8rem;
   padding: 1rem 1.2rem;
 }
+
+
+/* Footer Style go here */
+
+footer {
+  border-top: 1px solid var(--light-gray);
+}
+
+.footer-header {
+  width: 90%;
+  margin-top: 2.5rem;
+  margin: 2.5rem auto 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-digikala-icon h1 {
+  color: var(--red-pink);
+  font-size: 2.5rem;
+}
+
+.back-to-up {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 150px;
+  height: 40px;
+  border: 1px solid var(--light-gray);
+  border-radius: 0.4rem;
+  background-color: var(--white);
+  color: var(--easy-gray);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer Style end  */
+
+
 
 /* Landing Page Styles end here */
 
