@@ -27,6 +27,9 @@ ul {
   --light-gray: #e6e6e6;
   --easy-gray: #a7a7a7;
   --grey: #404040;
+  --gunsmoke:#81858B;
+  --lavender-pinocchio:#E0E0E2;
+  --seashell:#F0F0F1;
   --white: #fff;
   --black: #000;
   --ligh-black: #232323;
@@ -47,6 +50,7 @@ ul {
   --selective-yellow: #f9bc00;
   --warm-purple: #941b80;
   --ocean: #007295;
+  --river-bed:#3C4B6D;
 }
 
 /* Login Styles start here*/
@@ -1286,8 +1290,13 @@ nav {
 
 footer {
   border-top: 1px solid var(--light-gray);
+  width: 90%;
+  margin: auto;
 }
-
+.footer-container{
+  width: 90%;
+  margin: auto;
+}
 .footer-header {
   width: 90%;
   margin-top: 2.5rem;
@@ -1295,6 +1304,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: -1500;
 }
 
 .footer-digikala-icon h1 {
@@ -1314,18 +1324,218 @@ footer {
   color: var(--easy-gray);
 }
 
+#contact-info {
+  display: flex;
+  align-items: center;
+}
+
+.contact-devider {
+  height: 15px;
+  width: 1px;
+  background-color: var(--ligh-black);
+  margin: 0 1.5rem;
+}
+
+.contact-info_item p {
+  font-size: 0.8rem;
+  margin-top: 0.9rem;
+}
+
+#payment-ways {
+  margin-top: 2.5rem;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+.payment-ways__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.payment-ways__name p {
+  font-size: 0.7rem;
+}
+
+#digikala-footer__links {
+  margin-top: 3rem;
+  /* background-color: orange; */
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+.digikala-footer__link-title {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.digikala-footer_nav--item {
+  color: var(--gunsmoke);
+  /* font-size: 1rem; */
+  margin: 0.7rem 0;
+}
+
+.digikala-footer_nav-icons {
+  display: flex;
+
+}
+.social-media {
+  font-size: 2rem;
+  margin: 0 1.5rem;
+  color: var(--easy-gray);
+}
+
+.let-me-know {
+  margin-top: 1.3rem;
+}
+
+.inform-me_form {
+  margin-top: 1rem;
+}
+.your-email {
+  height: 50px;
+  outline: none;
+  border-radius: 0.5rem;
+  width: 78%;
+  border: none;
+  background-color:var(--seashell);
+  padding-right: 1rem;
+}
+.your-email::placeholder {
+  font-size: 1.1rem;
+  color: var(--easy-gray);
+}
+.register-email {
+  border-radius: 0.5rem;
+  outline: none;
+  height: 50px;
+  width: 20%;
+  border: none;
+  background-color:var(--lavender-pinocchio);
+  color: var(--white);
+  font-size: 1rem;
+}
+
+#download-digikala__app {
+  border-radius: 0.7rem;
+  margin-top: 2rem;
+  background-color: var(--river-bed);
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.download-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 1.5rem;
+}
+.download-title_icon {
+  width: 44px;
+  height: 44px;
+}
+.download-title_icon img{
+  width: 44px;
+  height: 44px;
+}
+.download-title_ttile {
+  color: var(--white);
+  font-size: 1.4rem;
+  margin-right: 1rem;
+}
+
+.download-ways {
+  display: flex;
+  align-items: center;
+}
+.download-ways__item{
+  height: 44px;
+  margin: 0 0.5rem;
+  border-radius: 0.5rem;
+  background-color: var(--white);
+}
+.download-ways__item img{
+  height: 44px;
+}
+
+.more-dots {
+  margin-left: 1rem;
+  border-radius: 5px !important;
+}
+
+.hr {
+  margin-top: 2rem;
+  background-color: var(--light-gray);
+  height: 1px ;
+}
 
 
+#e-nemads {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
+.e-nemad_description {
+  flex: 5;
+}
+.e-nemad__icons-item {
+  width: 100px;
+  height: 100px;
+  padding: 1rem;
+  margin: 0 2rem;
+}
+.e-nemad__icons-item img {
+  width:150px;
+  height:100px;
+  border: 1px solid var(--light-gray);
+  border-radius: 5px;
+}
+.e-nemad__icons {
+  flex: 2;
+  display: flex;
+  justify-self: center;
+  
+}
 
+.e-nemad_description_details {
+  font-size: 12px;
+  margin-top: 1rem;
+  color: var(--gunsmoke);
+}
 
+#digikala-platforms {
+  margin-top: 1.5rem;
+}
 
+.digikala-platforms_title p {
+  text-align: center;
+  font-size: 0.7rem;
+  color: var(--gunsmoke);
+  margin-bottom: 2rem;
+}
 
+.digikala-platforms_item {
+  width: 100%;
+  background-color: var(--seashell);
+  /* padding: 1rem; */
+}
+.digikala-platforms_item div {
+  width: 80%;
+  margin: auto;
+}
 
-
-
-
-
+.digikala-platforms_item__first {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto ;
+  border-bottom: 1px solid var(--light-gray);
+}
+.digikala-platforms_item__first div {
+  padding: 1.2rem;
+}
 
 /* Footer Style end  */
 
