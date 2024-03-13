@@ -1,3 +1,34 @@
+:root {
+  --light-gray: #e6e6e6;
+  --easy-gray: #a7a7a7;
+  --grey: #404040;
+  --gunsmoke:#81858B;
+  --lavender-pinocchio:#E0E0E2;
+  --seashell:#F0F0F1;
+  --white: #fff;
+  --black: #000;
+  --ligh-black: #232323;
+  --red: #ff0000;
+  --scarlet-red: #b2001a;
+  --green: #00ff00;
+  --lawn-green: #39ae00;
+  --blue: #0000ff;
+  --red-pink: #ee384e;
+  --blue-diamond: #3cd5ff;
+  --bondi-blue: #008eb2;
+  --royal-fuchsia-story-border: #c04198;
+  --harp: #ecefeb;
+  --peach: #ffae75;
+  --cotton-candy: #f4b7e0;
+  --white-smole: #f4f6f8;
+  --cerulean: #10a4db;
+  --selective-yellow: #f9bc00;
+  --warm-purple: #941b80;
+  --ocean: #007295;
+  --river-bed:#3C4B6D;
+  --baltic-sea:#232933;
+}
+
 /* @media (max-width: 580px) { */
 .login {
   width: 380px;
@@ -324,6 +355,65 @@ nav {
 
 .readable-title_more {
   margin-left: 0;
+}
+footer {
+  display: none;
+}
+#digikala-platforms{
+  display: none;
+}
+
+
+
+#fixed-to-bottom {
+  background-color: var(--baltic-sea);
+  height: 118px;
+  position: fixed;
+  width: 100% !important;
+  right: 0;
+  bottom: 0;
+  border-radius: 5px;
+  display: block;
+}
+
+.download-app {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.fixed-to-bottom__download {
+  display: flex;
+  align-items: center;
+}
+.fa-xmark {
+  color: var(--white);
+}
+.fixed-to-bottom__download h1 {
+  color: var(--white);
+  font-size: 1rem;
+  margin-right: 1rem;
+}
+
+
+
+.fixed-to-bottom__item {
+  background-color: var(--white);
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.fixed-to-bottom__item-icon p {
+  font-size: 0.6rem;
+}
+
+.fixed-to-bottom__item-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0.2rem 0;
+  color: #B8B9BD;
 }
 
 /* end of media query styles */

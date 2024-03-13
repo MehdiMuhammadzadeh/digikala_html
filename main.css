@@ -51,6 +51,7 @@ ul {
   --warm-purple: #941b80;
   --ocean: #007295;
   --river-bed:#3C4B6D;
+  --baltic-sea:#232933;
 }
 
 /* Login Styles start here*/
@@ -1285,9 +1286,13 @@ nav {
   padding: 1rem 1.2rem;
 }
 
-
+.distance {
+  display: none;
+}
 /* Footer Style go here */
-
+#fixed-to-bottom {
+  display: none;
+}
 footer {
   border-top: 1px solid var(--light-gray);
   width: 90%;
@@ -1536,6 +1541,7 @@ footer {
 .digikala-platforms_item__first div {
   padding: 1.2rem;
 }
+
 
 /* Footer Style end  */
 
